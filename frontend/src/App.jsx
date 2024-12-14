@@ -1,13 +1,13 @@
 import "./App.css";
-import FileUpload from "./components/FileUpload";
 import Navbar from "./components/Navbar";
+import BrailleProcessor from "./components/BrailleProcessor";
 
 function App() {
   return (
     <>
       <Navbar/>
       <br/>
-      <FileUpload/>
+      <BrailleProcessor/>
     </>
   );
 }
