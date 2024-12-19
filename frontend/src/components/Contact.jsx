@@ -37,7 +37,7 @@ function Contact() {
   return (
     <div className="text-center p-4">
       <h1 className="text-3xl text-gray-200 mb-4">Contact Us</h1>
-      <p className="text-gray-400 leading-7">
+      <p className="text-gray-400 leading-7 mb-10">
         We are a passionate team dedicated to making education accessible for everyone. Feel free to reach out to us for more information about SLEVI or any collaboration opportunities.
       </p>
       <div>
@@ -46,7 +46,7 @@ function Contact() {
           {teamMembers.map((member, index) => (
             <div
               key={index}
-              className="flex flex-col items-center bg-gray-800 p-4 rounded shadow-md w-60"
+              className="flex flex-col items-center p-4 rounded shadow-md w-60"
             >
               <img
                 src={member.image}
