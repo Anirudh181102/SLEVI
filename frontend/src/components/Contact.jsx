@@ -2,9 +2,9 @@ import React from "react";
 
 // Import images
 import AnirudhImage from "../images/Anirudh.jpg";
-// import ManasImage from "../images/Manas.jpg"; // Add other image imports here
-// import YashImage from "../images/Yash.jpg";
-// import AyushiImage from "../images/Ayushi.jpg";
+import ManasImage from "../images/Manas.jpg"; 
+import YashImage from "../images/Yash.jpg";
+import AyushiImage from "../images/Ayushi.jpg";
 
 function Contact() {
   const teamMembers = [
@@ -18,19 +18,19 @@ function Contact() {
       name: "Manas Mishra",
       rollNo: "102103367",
       contactNo: "xxxxx",
-      image: "https://via.placeholder.com/150", // Referencing the imported image
+      image: ManasImage, // Referencing the imported image
     },
     {
       name: "Yash Sharma",
       rollNo: "102103363",
       contactNo: "xxxxx",
-      image: "https://via.placeholder.com/150", // Referencing the imported image
+      image: YashImage, // Referencing the imported image
     },
     {
       name: "Ayushi Verma",
       rollNo: "102103360",
       contactNo: "xxxxx",
-      image: "https://via.placeholder.com/150", // Referencing the imported image
+      image: AyushiImage, // Referencing the imported image
     },
   ];
 
